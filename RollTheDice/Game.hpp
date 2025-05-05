@@ -3,6 +3,8 @@
 #ifndef PLAYER_HPP
 #define PLAYER_HPP
 
+#include <iostream>
+#include <Windows.h>
 #include "Die.hpp"
 #include "Player.hpp"
 
