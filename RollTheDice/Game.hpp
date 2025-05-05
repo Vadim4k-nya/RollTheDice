@@ -1,12 +1,10 @@
 #pragma once
 
-#ifndef PLAYER_HPP
-#define PLAYER_HPP
+#ifndef GAME_HPP
+#define GAME_HPP
 
-#include <iostream>
-#include <Windows.h>
-#include "Die.hpp"
 #include "Player.hpp"
+#include "Die.hpp"
 
 class Game
 {
@@ -31,4 +29,4 @@ private:
 	int winScore_;
 };
 
-#endif // !PLAYER_HPP
+#endif // !GAME_HPP

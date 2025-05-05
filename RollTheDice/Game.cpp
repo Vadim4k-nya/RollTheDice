@@ -3,7 +3,6 @@
 Game::Game(std::string playerName1, std::string playerName2, int winScore)
     :player1_(playerName1), player2_(playerName2), winScore_(winScore)
 {
-    
     currentPlayer_ = &player1_;
 }
 	

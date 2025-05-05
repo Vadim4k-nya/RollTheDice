@@ -1,8 +1,10 @@
 #pragma once
 
-//#ifndef PLAYER_HPP
-//#define PLAYER_HPP
+#ifndef PLAYER_HPP
+#define PLAYER_HPP
 
+#include <iostream>
+#include <Windows.h>
 #include <string>
 
 class Player
@@ -21,4 +23,4 @@ private:
 	int score_;
 };
 
-//#endif // !PLAYER_HPP
+#endif // !PLAYER_HPP
